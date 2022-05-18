@@ -13,10 +13,13 @@
 .description,
 .digits,
 .feynman,
-.feynman__title,
-.feynman__subtitle,
-.feynman__link,
-.feynman__image {
+.kaufman,
+.section-title,
+.section-subtitle,
+.table,
+.table__cell,
+.table__heading,
+.table__text {
   border: 1px solid red;
 }
 
@@ -158,7 +161,7 @@
   padding-bottom: 100px;
 }
 
-.digits__section-title {
+.section-title {
   width: 60%;
   margin-bottom: 20px;
   margin-top: 0;
@@ -168,7 +171,7 @@
   text-align: center;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   width: 60%;
   margin-top: 0;
   margin-bottom: 60px;
@@ -178,7 +181,7 @@
   text-align: center;
 }
 
-.digits__table {
+.table {
   width: 1100px;
   margin-bottom: 0;
   margin-top: 0;
@@ -190,11 +193,11 @@
   row-gap: 60px;
 }
 
-.digits__table_cell {
+.table__cell {
   width: 250px;
 }
 
-.digits__table_heading {
+.table__heading {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.15;
@@ -202,7 +205,7 @@
   font-weight: bold;
 }
 
-.digits__table_text {
+.table__text {
   margin-bottom: 0;
   margin-top: 20px;
   line-height: 1.2;
@@ -245,6 +248,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
   position: absolute;
   top: 50%;
   right: 48px;
@@ -257,4 +261,66 @@
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  z-index: 9;
+}
+
+.section-subtitle_theme_dark {
+  margin-bottom: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: white;
+  z-index: 9;
+}
+
+.table_theme_dark {
+  padding-top: 80px;
+  row-gap: 80px;
+  z-index: 9;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18;
+  font-weight: normal;
+  color: white;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  background-image: url(../images/kaufman-triangle.svg);
+  position: absolute;
+  top: 0;
+  right: -124px;
+  z-index: 6;
 }
