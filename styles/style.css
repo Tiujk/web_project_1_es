@@ -72,7 +72,6 @@
 .header__main-illustration {
   width: 756px;
   height: 608px;
-  background-image: url(../images/header-image.png);
   background-size: contain;
   background-repeat: no-repeat;
   position: absolute;
@@ -107,6 +106,7 @@
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -303,7 +303,6 @@
 .kaufman__triangle {
   width: 660px;
   height: 636px;
-  background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
   top: 0;
   right: -124px;
