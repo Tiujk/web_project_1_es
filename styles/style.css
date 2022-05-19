@@ -9,24 +9,14 @@
   font-family: "Helvetica Neue", "Arial", "sans-serif";
 }
 
-.header, 
+/*.header,
 .description,
 .digits,
 .feynman,
 .kaufman,
-.footer,
-.footer__columns,
-.footer__column_content_copyright,
-.footer__column_content_about,
-.footer__column_content_social,
-.logo_place_footer,
-.footer__author,
-.footer__column-heading,
-.footer__list,
-.footer__column-link,
-.footer__social-icons {
+.footer {
   border: 1px solid red;
-}
+}*/
 
 .logo {
   background-size: contain;
