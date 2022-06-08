@@ -1,5 +1,5 @@
 .table_theme_dark {
-  padding-top: 80px;
-  row-gap: 80px;
+  padding: 0 0 90px;
+  row-gap: 0;
   z-index: 9;
 }
