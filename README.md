@@ -7,5 +7,7 @@ Proyecto que consiste en la elaboración de una página web utilizando las herra
 * Flexbox
 * BEM
 * Git y GitHub  
+
 El desarrollo de proyecto consistió en tomar las lecciones teóricas y al final, desarrollar una página web solicitada a través de un brief donde se indicaban ciertas carácterísticas del diseño que la página debería cumplir. El repositorio correspondiente debía estar vinculado a GitHub, además de ir utilizando Git para generar diversos commits que correspondieran a cambios y al avance en nuestro proyecto.  
+
 Es el primer proyecto desarrollado como studiante nuevo de estos temas, por lo que se aceptan los comentarios o propuestas de mejora que contribuyan a un mejor código de la página y que fortalezca mis conocimientos y crecimiento como desarrollador web.
